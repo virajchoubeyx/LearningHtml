@@ -9,7 +9,54 @@
     <title>AHyperTextWebsiteByViraj</title>
 </head>
 <body>
-    <h1>This is the heading</h1>
-    <p>This is the paragraph that gonna contain notes.</p>
+    <tbody>
+        <main>
+            <div>
+                <h1>A Basic Form</h1>
+                <form action="/_submit">
+                    <!-- Making of form -->
+                    <label for="nameid">Name:</label>
+                    <input type="text" placeholder="enter your name" id="nameid" name="name">
+                    <!--  -->
+                    <br><br>
+                    <p>These are radio buttons, select only one at a time</p>
+                    <label for="radioid1">
+                        <input type="radio" id="radioid1" name="groupradio" value="radio 1">Option 1
+                    </label>
+                    <label for="radioid2">
+                        <input type="radio" id="radioid2" name="groupradio" value="radio 2">Option 2
+                    </label>
+                    <label for="radioid3">
+                        <input type="radio" id="radioid3" name="groupradio" value="radio 3">Option 3
+                    </label>
+                    <!--  -->
+                    <br><br>
+                    <p>These are the checkboxes, you may select more than one</p>
+                    <label for="checkboxid">
+                        <input type="checkbox" id="checkboxid" name="groupcheckbox" class="checkbox"> You want 1?
+                    </label>
+                    <label for="checkboxid2">
+                        <input type="checkbox" id="checkboxid2" name="groupcheckbox" class="checkbox"> You want 2?
+                    </label>
+                    <label for="checkboxid3">
+                        <input type="checkbox" id="checkboxid3" name="groupcheckbox" class="checkbox"> You want 3?
+                    </label>
+                    <!--  -->
+                    <br><br>
+                    <label for="textAreaId">Tell us why you are here?</label>
+                    <textarea id="textAreaId" cols="40" rows="10" name="txtarea" placeholder="start writing here!"></textarea>
+                    <!--  -->
+                    <br><br>
+                    <label for="SelectOption"> Chose from drop down list
+                        <select name="options" id="options">
+                            <option value="op1">op1</option>
+                            <option value="op2">op2</option>
+                            <option value="op3">op3</option>
+                        </select>
+                    </label>
+                </form>
+            </div>
+        </main>
+    </tbody>
 </body>
 </html>
